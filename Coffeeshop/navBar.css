@@ -1,0 +1,35 @@
+:root {
+    /* CSS HEX */
+    --russian-violet: rgb(55, 41, 99);
+    --ultra-violet: #5e548eff;
+    --african-violet: #9f86c0ff;
+    --lilac: #be95c4ff;
+    --pink-lavender: #e0b1cbff;
+}
+
+#menu ul {
+    list-style-type: none;
+    background-color: pink;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#menu li {
+    float: right;
+    
+}
+
+#menu li a {
+    background-color: lavender;
+    color: purple;
+    padding: 15px 25px;
+    display: block; 
+    text-decoration: none;
+}
+
+#menu li a:hover, #menu .active {
+    background-color: var(--pink-lavender);
+    color: var(--ultra-violet);
+}
+

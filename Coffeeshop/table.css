@@ -1,0 +1,25 @@
+thead {
+    background-color: rgb(243, 207, 233);
+    
+}
+
+th {
+    border: 2px black solid;
+    padding: 5px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+.borderRight {
+    border-right: 2px solid;
+}
+
+

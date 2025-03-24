@@ -1,0 +1,25 @@
+p {
+    background-color:lightblue;
+}
+
+span {
+    background-color: aquamarine;
+}
+
+#p1 {
+    display: none;
+}
+
+#p2 {
+    display: inline;
+    height: 100px;
+}
+
+#p3 {
+    display: block;
+}
+
+#p4 {
+    display: inline-block;
+    height: 100px;
+}
